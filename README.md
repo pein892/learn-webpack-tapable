@@ -18,7 +18,7 @@ const {
     AsyncSeriesWaterfallHook
 } = require('tapable')
 ```
-所有钩子类的狗仔函数都接收一个可选的参数，这个参数是一个由字符串参数组成的数组，如下：
+所有钩子类的钩子函数都接收一个可选的参数，这个参数是一个由字符串参数组成的数组，如下：
 ```javascript
 const hook = new SyncHook(["arg1", "arg2", "arg3"])
 ```
